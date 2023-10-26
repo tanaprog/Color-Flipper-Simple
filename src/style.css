@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 45px;
+    padding: 20px 45px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    border: 1px solid black;
+    color: #fff;
+    background-color: rgb(2, 26, 26);
+}
+
+#color {
+    color: rgb(131, 131, 228);
+}
+
+#btn {
+    font-size: 2rem;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
